@@ -10,7 +10,7 @@ public class MainPage extends AbstractPages {
     //private WebElement submitButton;
     //@FindBy(xpath = "//*[@ng-click='openLoginModal()']")
     //data-testid="Login menu button"
-    @FindBy(xpath = "//*[@data-testid='Login menu button']")
+    @FindBy(xpath = "//*[@data-testid=\"Login menu button\"]")
     private WebElement submitButton;
 
     public MainPage(WebDriver driver) { super(driver); }
